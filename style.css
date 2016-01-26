@@ -12,6 +12,11 @@ a {
   min-height: 100vh;
 }
 
+article {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
 .showcase-page, .blog-page {
   flex: 1;
   display: flex;
@@ -63,16 +68,17 @@ a {
   /* Position. */
   position: absolute;
   left: 50%;
-  margin-left: -110px;
+  margin-left: -76px;
   top: 50%;
-  margin-top: -100px;
+  margin-top: -64px;
   /* Size and shape. */
-  width: 200px;
-  height: 200px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("me.jpeg");
+  background-image: url("me.jpg");
   box-shadow: 0 0 30px 0px grey inset;
+  border: 3px solid white;
 }
