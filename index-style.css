@@ -82,3 +82,9 @@ article {
   box-shadow: 0 0 30px 0px grey inset;
   border: 3px solid white;
 }
+
+@media only screen and (max-width: 800px) {
+  .profile {
+    display: none;
+  }
+}
