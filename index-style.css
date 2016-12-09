@@ -13,8 +13,7 @@ a {
 }
 
 article {
-  padding-left: 130px;
-  padding-right: 130px;
+  max-height: 200px;
 }
 
 .showcase-page, .blog-page {
@@ -83,7 +82,13 @@ article {
   border: 3px solid white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 864px) {
   .profile {
     display: none;
   }
